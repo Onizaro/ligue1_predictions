@@ -19,35 +19,3 @@ match_2013_2022.csv : ['Unnamed: 0', 'game_id', 'season', 'round', 'date', 'home
        'club_id', 'player_id', 'description', 'player_in_id',
        'player_assist_id']
 
-
-
-Distribution des buts marqués à domicile et à l'extérieur au fil des saisons : (VALIDE)
-Nous pourrions utiliser les données de match_2013_2022.csv pour tracer la distribution des buts marqués par les équipes à 
-domicile et à l'extérieur au fil des saisons. Cela nous permettrait de voir s'il y a des tendances ou des variations 
-significatives dans la performance des équipes dans le temps.
-
-Répartition des valeurs des joueurs par club :
-En utilisant les données de player_valuation_before_season.csv et clubs_fr.csv, nous pourrions créer un graphique en 
-barres montrant la répartition des valeurs des joueurs par club. Cela nous donnerait un aperçu de la répartition 
-des ressources financières entre les différents clubs de la Ligue 1.
-
-Évolution des minutes de jeu des joueurs au fil du temps :
-En utilisant les données de player_appearance.csv, nous pourrions tracer l'évolution du temps de jeu des joueurs au 
-fil des saisons. Cela nous permettrait de voir comment la participation des joueurs a changé au fil du temps et s'il y 
-a des joueurs clés qui ont vu leur temps de jeu augmenter ou diminuer.
-
-Répartition des types d'événements de jeu par club :
-En utilisant les données de game_events.csv, nous pourrions créer un diagramme à barres montrant la 
-répartition des types d'événements de jeu (but, carton jaune, carton rouge, etc.) par club. Cela nous donnerait un 
-aperçu des styles de jeu et des tendances en matière de performance des équipes.
-
-Analyse des positions des joueurs dans les compositions d'équipe :
-En utilisant les données de game_lineups.csv, nous pourrions créer un diagramme à barres empilées montrant 
-la répartition des positions des joueurs dans les compositions d'équipe. Cela nous permettrait de voir quelles 
-sont les positions les plus fréquemment occupées par les joueurs dans les différentes équipes.
-
-Heatmap de corrélation entre les statistiques individuelles des joueurs et les résultats des matchs :
-En utilisant les données de player_appearance.csv, nous pourrions calculer la corrélation entre les statistiques 
-individuelles des joueurs (nombre de buts, passes décisives, cartons, etc.) et les résultats des matchs 
-(victoire à domicile, match nul, victoire à l'extérieur). Cela nous aiderait à identifier les performances individuelles 
-qui sont les plus corrélées avec les résultats des matchs.
